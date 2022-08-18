@@ -23,7 +23,7 @@ class Time extends Component {
     <div className="Time">
         <div className="navbar">
             React Clock
-            < Switch onClick={this.toggleSwitch} />
+            < Switch onClick={this.toggleSwitch} className="toggle" />
         </div>
 
       <Clock format={'HH:mm:ss'} ticking={true} timezone={''} />
