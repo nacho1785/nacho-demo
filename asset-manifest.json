@@ -1,16 +1,15 @@
 {
   "files": {
-    "main.css": "/nacho-demo/static/css/main.073c9b0a.css",
-    "main.js": "/nacho-demo/static/js/main.3e809e08.js",
+    "main.css": "/nacho-demo/static/css/main.fbefee3f.css",
+    "main.js": "/nacho-demo/static/js/main.6c623b04.js",
     "static/js/787.64b443ad.chunk.js": "/nacho-demo/static/js/787.64b443ad.chunk.js",
-    "static/media/logo.svg": "/nacho-demo/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/nacho-demo/index.html",
-    "main.073c9b0a.css.map": "/nacho-demo/static/css/main.073c9b0a.css.map",
-    "main.3e809e08.js.map": "/nacho-demo/static/js/main.3e809e08.js.map",
+    "main.fbefee3f.css.map": "/nacho-demo/static/css/main.fbefee3f.css.map",
+    "main.6c623b04.js.map": "/nacho-demo/static/js/main.6c623b04.js.map",
     "787.64b443ad.chunk.js.map": "/nacho-demo/static/js/787.64b443ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.3e809e08.js"
+    "static/css/main.fbefee3f.css",
+    "static/js/main.6c623b04.js"
   ]
 }
