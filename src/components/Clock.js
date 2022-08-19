@@ -20,16 +20,13 @@ class Time extends Component {
 
   render (){
   return (
-    <div className="Header">
+    <div className="Time">
         <div className="navbar">
-            Ignacio Chapperon
+            React Clock
             < Switch onClick={this.toggleSwitch} className="toggle" />
-            <div>
-                <Clock format={'HH:mm:ss'} ticking={true} timezone={''} />
-            </div>
         </div>
 
-     
+      <Clock format={'HH:mm:ss'} ticking={true} timezone={''} />
     
     <div className='toggleDate'>
             {this.state.todaysDate ? moment().format('MMMM Do YYYY') : ''}
