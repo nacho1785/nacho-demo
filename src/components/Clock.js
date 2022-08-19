@@ -22,7 +22,7 @@ class Time extends Component {
   return (
     <div className="Time">
         <div className="navbar">
-            React Clock
+            Ignacio Chapperon
             < Switch onClick={this.toggleSwitch} className="toggle" />
         </div>
 
