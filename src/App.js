@@ -1,15 +1,26 @@
+import React from 'react';
+
+import { Blog, Features, Footer, Header, Possibility, WhatGPT3 } from './containers';
+import { CTA, Brand, Navbar } from './components';
+
 import './App.css';
-import React, {Component} from 'react';
-import Clock from './components/Clock';
-
-class App extends Component {
-  render (){
+ 
+const App = () => {
   return (
-    <div className="App-header">
-      <Clock/>
+    <div className='App'>
+        <div className='gradient__bg'>
+          <Navbar />
+          <Header />
+        </div>
+        <Brand />
+        <WhatGPT3 />
+        <Features />
+        <Possibility />
+        <CTA />
+        <Blog />
+        <Footer />
     </div>
-  );
-}
+  )
 }
 
-export default App;
+export default App
